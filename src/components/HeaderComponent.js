@@ -1,12 +1,20 @@
 import React, { Component } from "react";
 import {
-  Nav,
   Navbar,
   NavbarBrand,
+  Nav,
   NavbarToggler,
   Collapse,
   NavItem,
   Jumbotron,
+  Button,
+  Modal,
+  ModalHeader,
+  ModalBody,
+  Form,
+  FormGroup,
+  Input,
+  Label,
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
 
@@ -17,12 +25,22 @@ class Header extends Component {
     this.toggleNav = this.toggleNav.bind(this);
     this.state = {
       isNavOpen: false,
+      isModalOpen: false,
     };
+
+    this.toggleNav = this.toggleNav.bind(this);
+    this.toggleModal = this.toggleModal.bind(this);
   }
 
   toggleNav() {
     this.setState({
       isNavOpen: !this.state.isNavOpen,
+    });
+  }
+
+  toggleModal() {
+    this.setState({
+      isModalOpen: !this.state.isModalOpen,
     });
   }
 
