@@ -28,24 +28,32 @@ function Footer(props) {
             <a
               className="btn btn-social-icon btn-instagram"
               href="http://instagram.com/"
+              // eslint-disable-next-line
+              target="_blank"
             >
               <i className="fa fa-instagram" />
             </a>{" "}
             <a
               className="btn btn-social-icon btn-facebook"
               href="http://www.facebook.com/"
+              // eslint-disable-next-line
+              target="_blank"
             >
               <i className="fa fa-facebook" />
             </a>{" "}
             <a
               className="btn btn-social-icon btn-twitter"
               href="http://twitter.com/"
+              // eslint-disable-next-line
+              target="_blank"
             >
               <i className="fa fa-twitter" />
             </a>{" "}
             <a
               className="btn btn-social-icon btn-google"
               href="http://youtube.com/"
+              // eslint-disable-next-line
+              target="_blank"
             >
               <i className="fa fa-youtube" />
             </a>
