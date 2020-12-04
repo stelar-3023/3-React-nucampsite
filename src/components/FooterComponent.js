@@ -28,7 +28,7 @@ function Footer(props) {
             <a
               className="btn btn-social-icon btn-instagram"
               href="http://instagram.com/"
-              // eslint-disable-next-line
+              rel="noopener noreferrer"
               target="_blank"
             >
               <i className="fa fa-instagram" />
@@ -36,7 +36,7 @@ function Footer(props) {
             <a
               className="btn btn-social-icon btn-facebook"
               href="http://www.facebook.com/"
-              // eslint-disable-next-line
+              rel="noopener noreferrer"
               target="_blank"
             >
               <i className="fa fa-facebook" />
@@ -44,7 +44,7 @@ function Footer(props) {
             <a
               className="btn btn-social-icon btn-twitter"
               href="http://twitter.com/"
-              // eslint-disable-next-line
+              rel="noopener noreferrer"
               target="_blank"
             >
               <i className="fa fa-twitter" />
@@ -52,7 +52,7 @@ function Footer(props) {
             <a
               className="btn btn-social-icon btn-google"
               href="http://youtube.com/"
-              // eslint-disable-next-line
+              rel="noopener noreferrer"
               target="_blank"
             >
               <i className="fa fa-youtube" />
